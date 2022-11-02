@@ -1,0 +1,217 @@
+/* Primary Background #FFFFFF */
+/* Secondary Background #2F303A */
+/* Team Section Background #F5F4FA */
+/* Accent #2196F3 */
+/* Primary Text #757575 */
+/* Secondary Text #212121 */
+/* Footer Contacts rgba(255, 255, 255, 0.6); */
+/* Filter Button #F5F4FA */
+/* Hero Button Active #188CE8 */
+
+:root {
+  --background-primary: #ffffff;
+  --background-secondary: #2f303a;
+  --background-button-and-team: #f5f4fa;
+  --text-primary: #757575;
+  --text-secondary: #212121;
+  --text-footer-contacts: rgba(255, 255, 255, 0.6);
+  --accent: #2196f3;
+  --header-logo-color: #000000;
+  --hero-button-active: #188ce8;
+}
+
+body {
+  background-color: var(--background-primary);
+  color: var(--text-primary);
+  font-family: Roboto, "Helvetica Neue", "Segoe UI", sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.title-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  color: var(--text-secondary);
+}
+
+.list {
+  list-style: none;
+}
+
+.link,
+.logo-link {
+  font-style: normal;
+  text-decoration: none;
+}
+
+.hero,
+.footer {
+  background-color: var(--background-secondary);
+}
+
+/* -----------Навігація----------- */
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  color: var(--header-logo-color);
+}
+
+.header-nav-link,
+.header-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--text-secondary);
+}
+
+.logo-web,
+.current,
+.link:hover,
+.link:focus {
+  color: var(--accent);
+}
+
+.header-contact {
+  color: inherit;
+}
+
+/* -----------Hero----------- */
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--background-primary);
+}
+
+.hero-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--accent);
+  color: var(--background-primary);
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--hero-button-active);
+}
+/* -----------Переваги----------- */
+
+.advantages-title {
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+.advantages-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+}
+
+/* -----------Команда----------- */
+
+.team {
+  background-color: var(--background-button-and-team);
+}
+
+.team-card {
+  background-color: var(--background-primary);
+}
+
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  color: var(--text-secondary);
+}
+
+.team-member-position {
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+}
+
+/* -----------Підвал----------- */
+
+.footer {
+  background-color: var(--background-secondary);
+}
+.footer-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  color: var(--background-primary);
+}
+
+.footer-contact {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  color: var(--text-footer-contacts);
+}
+
+.address {
+  color: var(--background-primary);
+}
+
+/* -----------ПОРТФОЛІО----------- */
+
+/* -----------Кнопки фільтру----------- */
+
+.filter-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  letter-spacing: inherit;
+  background-color: var(--background-button-and-team);
+  color: var(--background-secondary);
+  cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--accent);
+  color: var(--background-primary);
+}
+
+/* -----------Картки портфоліо----------- */
+
+.portfolio-card-title {
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+  color: var(--text-secondary);
+}
+.portfolio-card-text {
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  color: var(--text-primary);
+}
