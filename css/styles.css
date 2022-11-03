@@ -27,6 +27,22 @@ body {
   letter-spacing: 0.03em;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .title-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
@@ -42,10 +58,6 @@ body {
   color: var(--text-secondary);
 }
 
-.list {
-  list-style: none;
-}
-
 .link,
 .logo-link {
   font-style: normal;
@@ -57,7 +69,33 @@ body {
   background-color: var(--background-secondary);
 }
 
+.container {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+  outline: 2px solid brown;
+}
+
 /* -----------Навігація----------- */
+
+.main-nav,
+.header-nav,
+.header-contacts {
+  display: flex;
+}
+
+.main-nav,
+.header-contacts {
+  align-items: center;
+}
+
+.header-nav {
+  margin-left: 93px;
+}
 
 .logo {
   font-family: Raleway, sans-serif;
@@ -67,8 +105,16 @@ body {
   color: var(--header-logo-color);
 }
 
+.header-nav-item:not(:last-child),
+.header-contact-item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .header-nav-link,
 .header-contact {
+  display: block;
+  padding: 32px 0;
+
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -82,6 +128,10 @@ body {
 .link:hover,
 .link:focus {
   color: var(--accent);
+}
+
+.header-contacts {
+  margin-left: auto;
 }
 
 .header-contact {
@@ -118,6 +168,7 @@ body {
 .hero-button:focus {
   background-color: var(--hero-button-active);
 }
+
 /* -----------Переваги----------- */
 
 .advantages-title {
@@ -162,6 +213,7 @@ body {
 .footer {
   background-color: var(--background-secondary);
 }
+
 .footer-logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -210,6 +262,7 @@ body {
   letter-spacing: 0.06em;
   color: var(--text-secondary);
 }
+
 .portfolio-card-text {
   font-size: 16px;
   line-height: calc(30 / 16);
