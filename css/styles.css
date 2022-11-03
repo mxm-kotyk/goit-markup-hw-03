@@ -7,6 +7,7 @@
 /* Footer Contacts rgba(255, 255, 255, 0.6); */
 /* Filter Button #F5F4FA */
 /* Hero Button Active #188CE8 */
+/* Header Border #ECECEC */
 
 :root {
   --background-primary: #ffffff;
@@ -18,6 +19,7 @@
   --accent: #2196f3;
   --header-logo-color: #000000;
   --hero-button-active: #188ce8;
+  --header-border: #ECECEC;
 }
 
 body {
@@ -82,6 +84,10 @@ ul {
 
 /* -----------Навігація----------- */
 
+.header {
+  border-bottom: 1px solid var(--header-border);
+}
+
 .main-nav,
 .header-nav,
 .header-contacts {
@@ -141,7 +147,13 @@ ul {
 
 /* -----------Hero----------- */
 
+.hero {
+  text-align: center;
+  padding: 200px 0;
+}
+
 .hero-title {
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
@@ -152,13 +164,15 @@ ul {
 }
 
 .hero-button {
+  display: inline-block;
+  text-align: center;
+  padding: 11px 32px;
+  border-radius: 4px;
+  border: solid transparent;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   background-color: var(--accent);
   color: var(--background-primary);
@@ -172,7 +186,25 @@ ul {
 
 /* -----------Переваги----------- */
 
+.advantages>.container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.advantages-list {
+  display: flex;
+}
+
+.advantages-item {
+  width: 270px;
+}
+
+.advantages-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .advantages-title {
+  margin-bottom: 10px;
   font-size: 14px;
   line-height: calc(16 / 14);
   text-transform: uppercase;
@@ -184,6 +216,10 @@ ul {
   font-size: 14px;
   line-height: calc(24 / 14);
 }
+
+/* -----------Чим ми займаємося----------- */
+
+
 
 /* -----------Команда----------- */
 
