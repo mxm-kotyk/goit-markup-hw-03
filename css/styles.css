@@ -265,6 +265,7 @@ ul {
 }
 
 .team-card {
+  border-radius: 0px 0px 4px 4px;
   width: calc((100% - 90px) / 4);
   background-color: var(--background-primary);
 }
@@ -272,7 +273,6 @@ ul {
 .team-member-footer {
   padding-top: 30px;
   padding-bottom: 30px;
-  border-radius: 0px 0px 4px 4px;
   text-align: center;
 }
 
@@ -281,14 +281,12 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
-  /* text-align: center; */
   color: var(--text-secondary);
 }
 
 .team-member-position {
   font-size: 16px;
   line-height: calc(19 / 16);
-  /* text-align: center; */
 }
 
 /* -----------Підвал----------- */
