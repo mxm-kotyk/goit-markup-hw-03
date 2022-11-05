@@ -8,6 +8,7 @@
 /* Filter Button #F5F4FA */
 /* Hero Button Active #188CE8 */
 /* Header Border #ECECEC */
+/* Portfolio Card Border #EEEEEE */
 
 :root {
   --background-primary: #ffffff;
@@ -20,6 +21,7 @@
   --header-logo-color: #000000;
   --hero-button-active: #188ce8;
   --header-border: #ECECEC;
+  --portfolio-card-border: #EEEEEE;
 }
 
 body {
@@ -204,11 +206,6 @@ ul {
 
 /* -----------Переваги----------- */
 
-/* !.advantages .container {
- ! padding-top: 94px;
- ! padding-bottom: 94px;
-} */
-
 .advantages-list {
   display: flex;
   gap: 30px;
@@ -234,6 +231,10 @@ ul {
 }
 
 /* -----------Чим ми займаємося----------- */
+
+.speciality {
+  padding-top: 0;
+}
 
 .speciality-title {
   margin-bottom: 50px;
@@ -270,8 +271,11 @@ ul {
   background-color: var(--background-primary);
 }
 
-.team-member-img {
-  margin-bottom: 30px;
+.team-member-footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 0px 0px 4px 4px;
+  text-align: center;
 }
 
 .team-member {
@@ -279,15 +283,14 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
-  text-align: center;
+  /* text-align: center; */
   color: var(--text-secondary);
 }
 
 .team-member-position {
-  margin-bottom: 30px;
   font-size: 16px;
   line-height: calc(19 / 16);
-  text-align: center;
+  /* text-align: center; */
 }
 
 /* -----------Підвал----------- */
@@ -313,7 +316,7 @@ ul {
 
 .footer-contact {
   font-size: 14px;
-  line-height: calc(24 / 14);
+  line-height: calc(21 / 14);
   color: var(--text-footer-contacts);
 }
 
@@ -372,9 +375,13 @@ ul {
 
 .portfolio-card-footer {
   padding: 20px 24px;
+  border-right: 1px solid var(--portfolio-card-border);
+  border-left: 1px solid var(--portfolio-card-border);
+  border-bottom: 1px solid var(--portfolio-card-border);
 }
 
 .portfolio-card-title {
+  margin-bottom: 4px;
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
