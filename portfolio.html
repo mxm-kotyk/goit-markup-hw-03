@@ -31,12 +31,12 @@
           </a>
           <ul class="header-nav list">
             <li class="header-nav-item">
-              <a href="./index.html" class="header-nav-link link"
+              <a href="./index.html" class="header-nav-link current link"
                 >Студія</a
               >
             </li>
             <li class="header-nav-item">
-              <a href="./portfolio.html" class="header-nav-link current link"
+              <a href="./portfolio.html" class="header-nav-link link"
                 >Портфоліо</a
               >
             </li>
@@ -50,8 +50,8 @@
             <a href="mailto:info@devstudio.com" class="header-contact link"
               >info@devstudio.com</a
             >
-          </li class="header-contact-item">
-          <li>
+          </li>
+          <li class="header-contact-item">
             <a href="tel:+380961111111" class="header-contact link"
               >+38 096 111 11 11</a
             >
@@ -66,10 +66,16 @@
           <!-- Кнопки фільтру -->
           <ul class="filter-list list">
             <li><button type="button" class="filter-button">Усі</button></li>
-            <li><button type="button" class="filter-button">Веб-сайти</button></li>
-            <li><button type="button" class="filter-button">Додатки</button></li>
+            <li>
+              <button type="button" class="filter-button">Веб-сайти</button>
+            </li>
+            <li>
+              <button type="button" class="filter-button">Додатки</button>
+            </li>
             <li><button type="button" class="filter-button">Дизайн</button></li>
-            <li><button type="button" class="filter-button">Маркетинг</button></li>
+            <li>
+              <button type="button" class="filter-button">Маркетинг</button>
+            </li>
           </ul>
           <!-- Картки портфоліо -->
           <ul class="portfolio-list list">
@@ -80,9 +86,12 @@
                   alt="відкритий ноутбук"
                   width="370"
                   height="294"
+                  class="portfolio-card-img img"
                 />
-                <h2 class="portfolio-card-title">Технокряк</h2>
-                <p class="portfolio-card-text">Веб-сайт</p>
+                <div class="portfolio-card-footer">
+                  <h2 class="portfolio-card-title">Технокряк</h2>
+                  <p class="portfolio-card-text">Веб-сайт</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-card">
@@ -92,11 +101,14 @@
                   alt="двоє баскетболістів з м'ячем"
                   width="370"
                   height="294"
+                  class="portfolio-card-img img"
                 />
-                <h2 class="portfolio-card-title">
-                  Постер New Orlean vs Golden Star
-                </h2>
-                <p class="portfolio-card-text">Дизайн</p>
+                <div class="portfolio-card-footer">
+                  <h2 class="portfolio-card-title">
+                    Постер New Orlean vs Golden Star
+                  </h2>
+                  <p class="portfolio-card-text">Дизайн</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-card">
@@ -106,9 +118,12 @@
                   alt="напис сіфуд ресторан на фоні лосося"
                   width="370"
                   height="294"
+                  class="portfolio-card-img img"
                 />
-                <h2 class="portfolio-card-title">Ресторан Seafood</h2>
-                <p class="portfolio-card-text">Додаток</p>
+                <div class="portfolio-card-footer">
+                  <h2 class="portfolio-card-title">Ресторан Seafood</h2>
+                  <p class="portfolio-card-text">Додаток</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-card">
@@ -118,9 +133,12 @@
                   alt="навушники"
                   width="370"
                   height="294"
+                  class="portfolio-card-img img"
                 />
-                <h2 class="portfolio-card-title">Проєкт Prime</h2>
-                <p class="portfolio-card-text">Маркетинг</p>
+                <div class="portfolio-card-footer">
+                  <h2 class="portfolio-card-title">Проєкт Prime</h2>
+                  <p class="portfolio-card-text">Маркетинг</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-card">
@@ -130,9 +148,12 @@
                   alt="дві коробки"
                   width="370"
                   height="294"
+                  class="portfolio-card-img img"
                 />
-                <h2 class="portfolio-card-title">Проєкт Boxes</h2>
-                <p class="portfolio-card-text">Додаток</p>
+                <div class="portfolio-card-footer">
+                  <h2 class="portfolio-card-title">Проєкт Boxes</h2>
+                  <p class="portfolio-card-text">Додаток</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-card">
@@ -142,9 +163,14 @@
                   alt="епл монітор з картою світу"
                   width="370"
                   height="294"
+                  class="portfolio-card-img img"
                 />
-                <h2 class="portfolio-card-title">Inspiration has no Borders</h2>
-                <p class="portfolio-card-text">Веб-сайт</p>
+                <div class="portfolio-card-footer">
+                  <h2 class="portfolio-card-title">
+                    Inspiration has no Borders
+                  </h2>
+                  <p class="portfolio-card-text">Веб-сайт</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-card">
@@ -154,10 +180,13 @@
                   alt="розгорнутий журнал"
                   width="370"
                   height="294"
+                  class="portfolio-card-img img"
                 />
-                <h2 class="portfolio-card-title">Видання Limited Edition</h2>
-                <p class="portfolio-card-text">Дизайн</p>
-              </a>
+                <div class="portfolio-card-footer">
+                  <h2 class="portfolio-card-title">Видання Limited Edition</h2>
+                  <p class="portfolio-card-text">Дизайн</p>
+                </div></a
+              >
             </li>
             <li class="portfolio-card">
               <a href="#" class="portfolio-card-link link">
@@ -166,9 +195,12 @@
                   alt="бірка з написом лейбел тег"
                   width="370"
                   height="294"
+                  class="portfolio-card-img img"
                 />
-                <h2 class="portfolio-card-title">Проєкт LAB</h2>
-                <p class="portfolio-card-text">Маркетинг</p>
+                <div class="portfolio-card-footer">
+                  <h2 class="portfolio-card-title">Проєкт LAB</h2>
+                  <p class="portfolio-card-text">Маркетинг</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-card">
@@ -178,9 +210,12 @@
                   alt="чоловічі руки друкують за відкритим ноутбуком"
                   width="370"
                   height="294"
+                  class="portfolio-card-img img"
                 />
-                <h2 class="portfolio-card-title">Growing Business</h2>
-                <p class="portfolio-card-text">Додаток</p>
+                <div class="portfolio-card-footer">
+                  <h2 class="portfolio-card-title">Growing Business</h2>
+                  <p class="portfolio-card-text">Додаток</p>
+                </div>
               </a>
             </li>
           </ul>

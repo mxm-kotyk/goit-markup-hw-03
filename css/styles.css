@@ -88,6 +88,8 @@ ul {
 
 .img {
   display: block;
+  width: 100%;
+  height: auto;
 }
 
 /* -----------Навігація----------- */
@@ -166,6 +168,9 @@ ul {
 }
 
 .hero-title {
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
@@ -179,8 +184,7 @@ ul {
 .hero-button {
   display: inline-block;
   text-align: center;
-  width: 216px;
-  height: 50px;
+  padding: 10px 32px;
   border-radius: 4px;
   border: 0 solid transparent;
   font-family: inherit;
@@ -364,6 +368,10 @@ ul {
 
 .portfolio-card {
   width: calc((100% - 60px) / 3);
+}
+
+.portfolio-card-footer {
+  padding: 20px 24px;
 }
 
 .portfolio-card-title {
