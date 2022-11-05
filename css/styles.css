@@ -98,10 +98,7 @@ ul {
   border-bottom: 1px solid var(--header-border);
 }
 
-.header .container {
-  display: flex;
-}
-
+.header .container,
 .main-nav,
 .header-nav,
 .header-contacts {
@@ -256,7 +253,6 @@ ul {
 .team-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 30px;
 }
 
