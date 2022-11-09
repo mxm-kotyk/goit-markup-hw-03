@@ -28,7 +28,6 @@ body {
   background-color: var(--background-primary);
   color: var(--text-primary);
   font-family: Roboto, "Helvetica Neue", "Segoe UI", sans-serif;
-  letter-spacing: 0.03em;
 }
 
 h1,
@@ -58,6 +57,7 @@ ul {
 .section-title {
   font-size: 36px;
   line-height: calc(42 / 36);
+  letter-spacing: 0.03em;
   text-align: center;
   color: var(--text-secondary);
 }
@@ -130,6 +130,7 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--header-logo-color);
 }
@@ -220,6 +221,7 @@ ul {
   margin-bottom: 10px;
   font-size: 14px;
   line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--text-secondary);
 }
@@ -228,6 +230,7 @@ ul {
   font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
 }
 
 /* -----------Чим ми займаємося----------- */
@@ -282,12 +285,14 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
+  letter-spacing: 0.03em;
   color: var(--text-secondary);
 }
 
 .team-member-position {
   font-size: 16px;
   line-height: calc(19 / 16);
+  letter-spacing: 0.03em;
 }
 
 /* -----------Підвал----------- */
@@ -308,12 +313,14 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
   color: var(--background-primary);
 }
 
 .footer-contact {
   font-size: 14px;
   line-height: calc(21 / 14);
+  letter-spacing: 0.03em;
   color: var(--text-footer-contacts);
 }
 
@@ -342,6 +349,7 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
+  letter-spacing: 0.03em;
   text-align: center;
   letter-spacing: inherit;
   background-color: var(--background-button-and-team);
@@ -388,5 +396,6 @@ ul {
 .portfolio-card-text {
   font-size: 16px;
   line-height: calc(30 / 16);
+  letter-spacing: 0.03em;
   color: var(--text-primary);
 }
